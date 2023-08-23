@@ -23,7 +23,7 @@ class TestCalculator():
 
     def test_addition(self):
         #self.calc = Calculator()
-        assert self.calc.addition(2, 2) == 5
+        assert self.calc.addition(2, 2) == 4
     
     @pytest.mark.skip(reason="Duplicated test case")
     def test_addition2(self):
